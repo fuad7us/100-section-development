@@ -1,0 +1,48 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus { outline: 0 solid }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333333;
+}
+
+body {
+    color: #9e9e9e;
+}
+
+a:hover { text-decoration: none;}
+
+.video-area {position: relative; padding: 80px 0;}
+
+.video-area-bg {background-image: url(../img/valley.jpg); background-color: #dddddd; background-position: center; background-size: cover; position: absolute;
+                left: 0; top: 0; height: 100%; width: 43%; box-shadow: 0 0 10px #888888;}
+
+ul.check-icon {margin: 0; padding: 0; list-style: none; color: #666666; font-size: 16px;}
+
+.check-icon li {position: relative; padding-left: 32px; padding-bottom: 10px;}
+
+.check-icon li:before {position: absolute; left: 0; top: 2px; font-family: fontAwesome; content: "\f00c"; color: #0F9D58;}
+
+.video-play-btn {position: absolute; right: -25px; top: 50%; background: #0F9D58; color: #ffffff; width: 50px; height: 50px; margin-top: -50px; border-radius: 50%;
+                 font-size: 15px; line-height: 50px; text-align: center; display: inline-block; margin-top: -25px;}
