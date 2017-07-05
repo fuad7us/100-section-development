@@ -1,0 +1,54 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {color: #a9a9a9; font-size: 14px; line-height: 20px;}
+
+a:hover { text-decoration: none }
+
+.section-padding {padding: 50px 0 0 0;}
+
+.section-bg-image-1 {position: relative;}
+
+.section-bg-image-1:before {position: absolute; content: ""; left: 0; top: 0; width: 47%; height: 100%; background: url(../img/guyonwall.jpg); background-size: cover; background-position: center;}
+
+.section-title h2 span {color: #177EE5;}
+
+.styled-faq {min-height: 350px; margin-top: 40px;}
+
+.styled-faq .panel-default > .panel-heading {background: none; border: none; padding: 0;}
+
+.styled-faq .panel-default > .panel-heading > .panel-title > a {display: block; padding: 10px 15px;}
+
+.styled-faq .panel-default > .panel-heading > .panel-title > a > i.fa {float: right; font-size: 150%; line-height: 19px; display: none;}
+
+.styled-faq .panel-default > .panel-heading > .panel-title > a[aria-expanded="true"] > i.fa.fa-angle-down {display: block;}
+
+.styled-faq .panel-default > .panel-heading > .panel-title > a[aria-expanded="false"] > i.fa.fa-angle-up {display: block;}
+
+.styled-faq .panel .panel-collapse > .panel-body {border: none;}
+
+.styled-faq .panel-group .panel {border-radius: 0; box-shadow: 0 0 0; margin-bottom: 15px;}
