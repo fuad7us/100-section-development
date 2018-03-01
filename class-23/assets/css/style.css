@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i');
+
+/* Base CSS */
+.alignleft         		  {float: left; margin-right: 15px;}
+.alignright        		  {float: right; margin-left: 15px;}
+.aligncenter       		  {display: block; margin: 0 auto 15px;}
+a:focus            		  {outline: 0 solid}
+img                		  {max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6  		  {margin: 0 0 15px; font-weight: 300;}
+body               		  {font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.7;}
+a:hover            		  {text-decoration: none;}
+
+.section-padding          {padding: 80px 0;}
+.section-heading		  {text-align: center; margin-bottom: 70px;}
+.section-heading h2       {font-size: 40px; font-weight: 700;}
+.single-service-box		  {border: 1px solid #ebebeb;}
+.service-box-bg			  {background: #dddddd; height: 200px; position: relative;}
+.service-box-bg h4        {position: absolute; background: #dd5044; color: #fff; font-size: 20px; font-weight: 400; text-align: center; padding: 10px; left: 10%; width: 80%; margin: 0; bottom: -20px;}
+.service-box-content      {padding: 30px; padding-top: 50px; font-size: 16px; line-height: 30px; text-align: center;}
+.service-box-content a    {color: #333333; font-size: 16px; font-weight: 400;}
+.service-box-bg-1		  {background: url(../img/bg-3.jpg); background-repeat: no-repeat; background-size: cover;}
+.service-box-bg-2		  {background: url(../img/bg-1.jpg); background-repeat: no-repeat; background-size: cover;}
+.service-box-bg-3		  {background: url(../img/bg-2.jpg); background-repeat: no-repeat; background-size: cover;}
