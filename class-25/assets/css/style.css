@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i');
+
+/* Base CSS */
+.alignleft         		  {float: left; margin-right: 15px;}
+.alignright        		  {float: right; margin-left: 15px;}
+.aligncenter       		  {display: block; margin: 0 auto 15px;}
+a:focus            		  {outline: 0 solid}
+img                		  {max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6  		  {margin: 0 0 15px; font-weight: 300;}
+body               		  {font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.7;}
+a:hover            		  {text-decoration: none;}
+
+.section-padding            	 {padding: 80px 0;}
+.section-heading		    	 {text-align: center; margin-bottom: 70px;}
+.section-heading h2         	 {font-size: 40px; font-weight: 700; display: inline-block; position: relative;}
+.section-heading h2:after   	 {position: absolute; content: ""; background: green; width: 60%; height: 4px; display: block; bottom: -25px; left: 20%;}
+.section-heading h2:before  	 {position: absolute; content: ""; background: #000000; width: 20%; height: 4px; display: block; bottom: -25px; left: 40%; z-index: 1; border-right: 10px solid #ffffff; border-left: 10px solid #ffffff;}
+.single-feature-item	    	 {margin-bottom: 40px;}
+.feature-bordered-img	    	 {position: relative; width: 100%; height: 120px; border: 1px solid #ffffff;}
+.feature-bordered-img:after 	 {position: absolute; content: ""; right: -8px; bottom: -8px; background: #6aa608; width: 100%; height: 100%; z-index: -1;}
+.single-feature-item h3     	 {border-bottom: 2px dashed #6aa608; padding: 12px 0; font-size: 18px; font-weight: 400;}
+.big-feature-bordered-img	     {position: relative; background: url(../img/img-2.jpg); background-size: cover; width: 100%; height: 420px; border: 1px solid #ffffff; margin-left: 30px;}
+.big-feature-bordered-img:before {position: absolute; content: ""; left: -8px; bottom: -8px; background: #6aa608; width: 100%; height: 100%; z-index: -1;}
+.big-feature-bordered-img:after  {position: absolute; content: ""; width: 100%; height: 100%; background: #333333; opacity: .5;}
+.feature-bordered-img.img-1      {background: url(../img/1.jpg); background-size: cover;}
+.feature-bordered-img.img-2      {background: url(../img/2.jpg); background-size: cover;}
+.feature-bordered-img.img-3      {background: url(../img/3.jpg); background-size: cover;}
