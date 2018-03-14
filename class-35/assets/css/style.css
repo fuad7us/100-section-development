@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i');
+
+
+/* Base CSS */
+.alignleft         		  {float: left; margin-right: 15px;}
+.alignright        		  {float: right; margin-left: 15px;}
+.aligncenter       		  {display: block; margin: 0 auto 15px;}
+a:focus            		  {outline: 0 solid}
+img                		  {max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6  		  {margin: 0 0 15px; font-weight: 400;}
+body               		  {color: #878787; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.8;}
+a:hover            		  {text-decoration: none;}
+
+
+/* Main CSS */
+.section-padding		  		 	    {position: relative; background-color: #222931; color: #bbbec0; ont-size: 13px; line-height: 1.8; z-index: 1; padding: 80px 0;}
+.section-padding h3 	  		 	    {color: #fff; text-transform: uppercase;}
+.section-bg  			  		 	    {position: absolute; top:0; right:0; width: 50%; height: 100%; background-size: cover;}
+.section-bg:after		  		 	    {position: absolute; content:""; top:0; left:0; width: 100%; height: 100%; background: #000; opacity: .5;}
+.absolute-bg-1:before					{position: absolute; content: ""; top: 40%; left: 0; width: 0; height: 0; border-top: 15px solid transparent; border-left: 20px solid #222931; border-bottom: 15px solid transparent; z-index: 2;}
+.bordered-btn			  		 	    {display: inline-block; text-transform: uppercase; border: 1px solid #bbbec0; font-weight: 700; color: #bbbec0; background: transparent; margin-top: 20px; padding: 7px 15px;}
+.boxed-content			  		 	    {position: relative; padding-left: 30px; padding-right: 70px;}
+.boxed-content:before	  		 	    {position: absolute; content: ""; left: 0; top: 4px; height: 80px; width: 1px; background: #bbbec0;}
+.absolute-bg-1			  		 	    {background-image: url("../img/bg-1.jpg"); background-position: center  420px;}
+.absolute-bg-2			  		 	    {background-image: url("../img/bg-2.jpg"); background-position: center -100px;}
+.absolute-bg-left .absolute-bg-2 	    {right: auto; left: 0;}
+.absolute-bg-left .boxed-content 	    {padding-right: 0; margin-left: 70px;}
+.absolute-bg-2:before    				{position: absolute; content: ""; top: 40%; right: 0; width: 0; height: 0; border-top: 15px solid transparent; border-right: 20px solid #222931; border-bottom: 15px solid transparent; z-index: 2;}
+
