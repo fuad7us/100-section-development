@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i');
+
+
+/* Base CSS */
+.alignleft         		  {float: left; margin-right: 15px;}
+.alignright        		  {float: right; margin-left: 15px;}
+.aligncenter       		  {display: block; margin: 0 auto 15px;}
+a:focus            		  {outline: 0 solid}
+img                		  {max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6  		  {margin: 0 0 15px; font-weight: 400;}
+body               		  {color: #878787; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.8;}
+a:hover            		  {text-decoration: none;}
+
+
+/* Main CSS */
+.section-padding		  	   {padding: 80px 0;}
+.single-slide-item			   {position: relative; background-image: url(../img/bg.jpg); background-size: cover; background-position: center; height: 700px; z-index: 1;}
+.single-slide-item:after	   {position: absolute; content: ""; top: 0; left: 0; background: rgba(222,115,215, .2); height: 100%; width: 100%; z-index: -1;}
+.slide-text-area			   {position: absolute; left: 0; bottom: 0; width: 100%;}
+.slide-text					   {position: relative; background-color: #2185cf; color: #fff; font-size: 20px; line-height: 1.98; padding-top: 60px; padding-bottom: 60px; padding-right: 120px;}
+.slide-text	h2 				   {font-size: 50px;}
+.boxed-btn					   {display: inline-block; background-color: #333; color: #fff; text-transform: uppercase; padding: 10px 40px;}
+.slide-text .boxed-btn		   {margin-top: 30px;}
+.slide-text:before 			   {position: absolute; content: ""; left: -1000%; top: 0; width: 1000%; height: 100%; background-color: #2185cf;}
+.slide-text:after 			   {position: absolute; content: ""; right:-10px; top: 30px; width: 20px; height: 20px; background-color: #2185cf; transform: rotate(45deg);}
+.overlay 					   {background: rgba(0, 0, 0, 0.5); height: 100%; padding: 30px; width: 100%;}
+
+
+
