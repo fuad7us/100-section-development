@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i');
+
+
+/* Base CSS */
+.alignleft         		  {float: left; margin-right: 15px;}
+.alignright        		  {float: right; margin-left: 15px;}
+.aligncenter       		  {display: block; margin: 0 auto 15px;}
+a:focus            		  {outline: 0 solid}
+img                		  {max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6  		  {margin: 0 0 15px; font-weight: 400;}
+body               		  {font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.8; background: #f5f6fa;}
+a:hover            		  {text-decoration: none; color: #fff;}
+
+
+/* Main CSS */
+.section-padding		  		{padding: 80px 0;}
+.promo-boxes-wrap		  		{margin-left: -15px; overflow: hidden;}	
+.single-promo-box 		  		{display: table; width: 50%; height: 350px; float: left; text-align: center; background: #fff;}
+.single-promo-box h2 			{font-size: 28px; font-weight: 700; position: relative; z-index: 1; padding-bottom: 20px; margin-bottom: 40px;}
+.single-promo-box h2:after		{position: absolute; content: ""; display: block; width: 50px; height: 2px; background:#DA879B; left: 50%; bottom: 0; margin-left: -25px; }
+.promo-box-tablecell 	  		{display: table-cell; vertical-align: middle; padding-top: 45px; transition: .3s;}
+.single-promo-box:nth-child(2)  {background: #DA879B; color: #fff;}
+.single-promo-box:nth-child(3)  {background: #7BBACF; color: #fff;}
+.promo-icon:before 				{font-size: 70px;}
+.boxed-btn						{display: inline-block; background: #7BBACF; color: #fff; padding: 10px 40px; border-radius: 50px; transition: .3s;}
+.single-promo-box .boxed-btn 	{font-weight: 700; text-transform: uppercase; opacity: 0; visibility: hidden; background: #DA879B;}
+.single-promo-box:hover .promo-box-tablecell {padding-top: 0;}
+.single-promo-box:hover .boxed-btn			 {opacity: 1; visibility: visible;}
+.single-promo-box:nth-child(2) h2:after, .single-promo-box:nth-child(3) h2:after {background: #fff;}
+.single-promo-box:nth-child(1) .promo-icon {color: #DA879B;}
+.single-promo-box:nth-child(4) .promo-icon {color: #7BBACF;}
+.single-promo-box:nth-child(4) h2:after, .single-promo-box:nth-child(4) .boxed-btn   {background: #7BBACF;}
+.single-promo-box:nth-child(3) .boxed-btn   {color: #7BBACF; background: #fff;}
+.single-promo-box:nth-child(2) .boxed-btn   {color: #DA879B; background: #fff;}
+
+
+.right-side-content			{padding: 140px 80px;}
+.section-title h3 			{color: #7BBACF; font-style: italic; font-size: 20px;}
+.section-title h2 			{font-size: 30px; font-weight: 700; text-transform: uppercase; margin-bottom: 50px;}
+.bordered-btn	  			{background: transparent; border: 1px solid #7BBACF; color: #7BBACF; padding: 10px 40px; border-radius: 50px; transition: .3s;}
+.section-btns	  			{margin-top: 40px;}
+.section-btns .bordered-btn {margin-left: 15px;}
+.section-btns .bordered-btn:hover {background: #7BBACF; color: #fff;}
+
+
