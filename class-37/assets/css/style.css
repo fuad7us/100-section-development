@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i');
+
+
+/* Base CSS */
+.alignleft         		  {float: left; margin-right: 15px;}
+.alignright        		  {float: right; margin-left: 15px;}
+.aligncenter       		  {display: block; margin: 0 auto 15px;}
+a:focus            		  {outline: 0 solid}
+img                		  {max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6  		  {margin: 0 0 15px; font-weight: 400;}
+body               		  {font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.8;}
+a:hover            		  {text-decoration: none; color: #fff;}
+
+
+/* Main CSS */
+.section-padding		  					{padding: 80px 0;}
+.section-title								{position: relative; width: 300px; text-transform: uppercase; font-size: 42px; transform: rotate(-90deg); margin-top: 35px; margin-left: -40px; font-weight: 700;}
+.section-title:before						{position: absolute; content: ""; left: 97px; top: -15px; width: 37%; height: 3px; background: #000;}
+.team-bg									{background-image: url("../img/tm-1.jpg"); height: 270px; background-size: cover; background-position: center top; margin-bottom: 50px;}
+.team-bg-2									{background-image: url("../img/tm-2.jpg");}
+.team-bg-3									{background-image: url("../img/tm-3.jpg");}
+.bordered-content							{border: 1px solid #333; text-align: center; text-transform: uppercase; font-size: 20px; letter-spacing: 2px; font-weight: 300; padding-bottom: 20px;}
+.bordered-content h3 						{font-size: 20px; background: #fff; font-weight: 700; display: inline-block; margin-bottom: 5px; padding: 0 10px;}
+.team-title									{margin-top: -20px;}
+.col-md-4:nth-child(2) .single-team-member  {margin-top: 120px;}
