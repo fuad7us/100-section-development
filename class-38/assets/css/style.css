@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|PT+Sans:400,400i,700,700i');
+
+
+/* Base CSS */
+.alignleft         		  {float: left; margin-right: 15px;}
+.alignright        		  {float: right; margin-left: 15px;}
+.aligncenter       		  {display: block; margin: 0 auto 15px;}
+a:focus            		  {outline: 0 solid}
+img                		  {max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6  		  {margin: 0 0 15px; font-weight: 900; font-family: 'Merriweather', serif;}
+body               		  {font-family: 'PT Sans', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.8;}
+a:hover            		  {text-decoration: none; color: #fff;}
+
+
+/* Main CSS */
+.header-area			  	  {padding: 30px 0; position: absolute; top: 0; left: 0; width: 100%; z-index: 999;}
+.logo					  	  {font-size: 20px; line-height: 22px; font-weight: 700; position: relative; padding-left: 110px; padding-top: 20px; padding-bottom: 20px;}
+.logo a					  	  {color: #333333;}
+.logo img 				  	  {max-width: 100px; position: absolute; left: 0; top: 0;}
+.logo span 				  	  {display: block; font-size: 80%; font-style: italic; font-weight: 400;}
+.right-content-box		  	  {font-size:14px; position: relative; display: inline-block; text-align: left; padding-left: 20px; padding-top: 1px; line-height: 22px; margin-left: 20px; margin-top: 15px;}
+.right-content-box i.fa   	  {position: absolute; left: 0; top: 6px;}
+.right-content-box a      	  {color: #333333;}
+
+.single-slide-item		      {background-image: url("../img/food-plate.jpg"); background-size: cover; background-position: 0 -100px; background-color: #dddddd; padding-top: 180px; padding-bottom: 100px;}
+.single-slide-item.slide2     {background-image: url("../img/food-plate1.jpg"); background-size: cover; background-position: 0 -180px; background-color: #dddddd; padding-top: 180px; padding-bottom: 100px;}
+.slide-text				      {position: relative; z-index: 1; font-size: 18px; line-height: 28px; padding: 50px 100px;}
+.slide-text:after		      {position: absolute; content: ""; top: 0; left: 0; width: 100%; height: 100%; background: #ffffff; opacity: .5; z-index: -1;}
+.slide-text h2 			      {font-size: 40px; margin-bottom: 40px;}
+.boxed-btn    			      {color: #ffffff; display: inline-block; background: #8B4618; padding: 12px 20px;}
+.slide-text .boxed-btn        {margin-top: 20px;}
+
+.homepage-slides .owl-nav div 		   {position: absolute; position: absolute; left: 50px; top: 50%; font-size: 50px; line-height: 60px; margin-top: -30px; opacity: 0; transition: .3s;}
+.homepage-slides:hover .owl-nav div    {opacity: .5;}
+.homepage-slides .owl-nav div.owl-next {left: auto; right: 50px;}
+
+.homepage-slides .owl-dots div  	   {display: inline-block; width: 15px; height: 15px; background: #ffffff; margin: 5px; border-radius: 50px;}
+.homepage-slides .owl-dots div.active  {background: #8B4618;}
+.homepage-slides .owl-dots			   {position: absolute; left: 0; bottom: 20px; text-align: center; width: 100%;}
