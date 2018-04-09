@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,800');
+
+
+/* Base CSS */
+.alignleft         		  {float: left; margin-right: 15px;}
+.alignright        		  {float: right; margin-left: 15px;}
+.aligncenter       		  {display: block; margin: 0 auto 15px;}
+a:focus            		  {outline: 0 solid}
+img                		  {max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6  		  {margin: 0 0 15px;}
+body               		  {font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.8;}
+a:hover            		  {text-decoration: none; color: #fff;}
+
+
+/* Main CSS */
+.gradient-overlay-wrapper 		{background: url("../img/bg.jpg"); position: relative; z-index: 1;}
+.gradient-overlay-wrapper:after {
+		background: #24166d;
+		background: -moz-linear-gradient(-45deg,  #24166d 0%, #24166d 38%, #d9aec2 100%);
+		background: -webkit-linear-gradient(-45deg,  #24166d 0%,#24166d 38%,#d9aec2 100%);
+		background: linear-gradient(135deg,  #24166d 0%,#24166d 38%,#d9aec2 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24166d', endColorstr='#d9aec2',GradientType=1 );
+		position: absolute; content: ""; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; opacity: .9;
+}
+.header-area			{position: relative; padding: 20px 0; z-index: 1;}
+.header-area:after		{position: absolute; content: ""; left: 0; bottom: 0; height: 1px; width: 100%; background: #ffffff; opacity: .1; }
+.logo img 			    {max-width: 200px;}
+.mainmenu ul 		    {margin: 0; padding: 0; list-style: none; text-align: right;}
+.mainmenu ul li		    {display: inline-block;}
+.mainmenu ul li	a	    {display: block; color: #ffffff; font-size: 16px; padding: 20px; opacity: .5; transition: .3s;}
+.mainmenu ul li	a:hover	{opacity: 1;}
+
+.mobile-screen			{position: absolute; right: 0; bottom: 0; max-width: 40%;}
+.hero-text				{max-width: 450px; color: #ffffff; font-size: 18px; padding: 200px 0;}
+.hero-text h1			{font-size: 50px; font-weight: 300px; line-height: 1.2; margin-bottom: 35px;}
+.hero-text p 			{opacity: .5;}
+.hero-button			{margin-top: 50px;}
+.hero-button a			{color: #ffffff; text-transform: uppercase; font-size: 14px; font-weight: 700; display: inline-block; border-radius: 50px; padding: 8px 30px; letter-spacing: 1;}
+.bordered-btn			{border: 1px solid #ffffff;}
+.underline-btn			{text-decoration: underline;}
