@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,800');
+
+
+/* Base CSS */
+.alignleft         		  {float: left; margin-right: 15px;}
+.alignright        		  {float: right; margin-left: 15px;}
+.aligncenter       		  {display: block; margin: 0 auto 15px;}
+a:focus            		  {outline: 0 solid}
+img                		  {max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6  		  {margin: 0 0 15px;}
+body               		  {font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.8;}
+a:hover            		  {text-decoration: none; color: #fff;}
+
+
+/* Main CSS */
+.price-boxes			     {box-shadow: 0 0 30px #57A1D6; overflow: hidden;}
+.section-bg-1			     {background: url("../img/cloud.jpg");}
+.section-padding 		     {position: relative; padding: 80px 0; background-size: cover; background-position: center bottom; background-attachment: fixed;}
+.single-price-box		     {position: relative; float: left; width: 33.333333%; z-index: 1;}
+.single-price-box:after		 {position: absolute; content: ""; right: 0; top: 0; width: 1px; height: 100%; background: #2689CD; opacity: .2;}
+.single-price-box:last-child:after {display: none;}
+.price-box-img img 			 {max-width: 180px; max-height: 185px;}
+.price-box-img				 {display: table; width: 100%; height: 175px;}
+.price-box-img-wrap			 {display: table-cell; vertical-align: middle; width: 100%; text-align: center;}
+.price-box-inner			 {background: #ffffff; padding: 30px; color: #2689CD; text-align: center;}
+.price-box-inner h2 		 {position: relative; font-weight: 700; text-align: center; text-transform: uppercase; color: #2689CD; margin-bottom: 30px; z-index: 1;}
+.price-box-inner h2:after    {position: absolute; content: ""; width: 30px; height: 2px; background: #2689CD; left: 50%; bottom: -10px; margin-left: -15px;}
+.price-box-inner h3 		 {text-align: center; padding-left: 5px;} 
+.price-content span 		 {position: relative; display: inline-block; color: #d25529; font-size: 60px; font-weight: 800;}
+.price-content span:before	 {position: relative; content: "$"; top: -30px; left: -5px; font-size: 24px; font-weight: 400;}
+.price-content span:after	 {content: "/mo"; font-size: 24px; font-weight: 400; margin-left: 5px;}
+.price-box-inner ul 		 {margin: 0; padding: 0; list-style: none; padding-left: 55px; text-align: left; font-size: 16px; line-height: 30px; margin-bottom: 30px;}
+.boxed-btn			 		 {display: inline-block; background: #2689CD; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-transform: uppercase; font-weight: 700; transition: .3s;}
+.boxed-btn:hover			 {background: #d25529;}
+.boxed-btn.active			 {background: #d25529;}
+
+
+
+
+
+
+
+
