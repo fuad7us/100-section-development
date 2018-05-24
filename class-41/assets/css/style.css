@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,400i,600,600i,700,700i,800,800i');
+
+
+/* Base CSS */
+.alignleft         		  {float: left; margin-right: 15px;}
+.alignright        		  {float: right; margin-left: 15px;}
+.aligncenter       		  {display: block; margin: 0 auto 15px;}
+a:focus            		  {outline: 0 solid}
+img                		  {max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6  		  {margin: 0 0 15px; font-family: 'Open Sans', sans-serif; font-weight: 700;}
+body               		  {background: #ecebf0; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.8;}
+a:hover            		  {text-decoration: none; color: #fff;}
+
+
+/* Main CSS */
+.section-padding		  {padding: 80px 0; color: #ffffff;}
+.colored-bg				  {background: #76D3DA; position: relative;}
+.lady-img				  {position: absolute; right: -70px; bottom: 0;}
+.slide-text				  {padding: 80px 0 142px 0; padding-left: 100px; max-width: 500px; }
+.top-ticker-text 		  {position: relative; font-size: 16px; line-height: 20px; text-transform: uppercase; z-index: 1; margin-bottom: 80px;}
+.top-ticker-text:after 	  {position: absolute; content: ""; left: 0; bottom: -10px; width: 35px; height: 2px; background: #ffffff;}
+.slide-text h1 		      {font-size: 55px; line-height: 60px; font-weight: 400; margin-bottom: 60px;}
+.boxed-btn				  {display: inline-block; background: #F4F551; color: #333333; font-weight: 600; text-transform: uppercase; padding: 10px 20px; border-radius: 50px; box-shadow: 0 0 30px #F4F551; margin-top: 30px;}
+
+
+
+
+
